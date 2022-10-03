@@ -5,7 +5,7 @@ const Layout = ({ children }: PropsWithChildren) => {
     return (
         <div>
             <Header />
-            <main>
+            <main className="min-h-[calc(100vh-10rem)] flex items-center">
                 {children}
             </main>
         </div>
